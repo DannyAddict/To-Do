@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+body {
+    background-image: url("https://images5.alphacoders.com/374/374293.jpg");
+}
+<style>
+dropdown {
+    position: relative;
+    display: inline-block;
+}
