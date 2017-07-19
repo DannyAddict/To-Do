@@ -6,8 +6,14 @@ a {
     color: #F1C40F;
 }
 body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0BEx87uBOa0-Z6d-3kj1f_eGIdECD1vOHPRG4Boppg4QeSNS")
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0BEx87uBOa0-Z6d-3kj1f_eGIdECD1vOHPRG4Boppg4QeSNS");
 }
 .eat {
-text-align: center;
+    text-align: center;
+}
+.eat2 {
+    color: green;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
 }
