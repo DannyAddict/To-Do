@@ -1,6 +1,9 @@
 <html>
     <head>
         <link rel= "stylesheet" href= "index.css"></link>
+        <script src= "https://ajax.googleapis.com/ajas/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript"src="index.js"></script>
+        
         <title>To-Do</title>
     </head>
     <body>
@@ -18,11 +21,15 @@
             <li><input type= "checkbox">Code</li>
             <li><input type= "checkbox">Sleep</li>
         </ul> 
-        <input type= "text" placeholder= "Task">
+        <div id= "new-todo-block">
+        <input id= "new-todo-desscription" class= "text-input" type= "text" placeholder= "Task">
         <br>
         <input type= "date">
             <br>
-        <input type= "text" placeholder= "description...">
+        <input class= "text-input" id="new-pomodoro-estimate" type= number>    
             <br>
-        <input type= "submit" value= "Add">
+        <input id="new-todo-desscription" class= "text-input" type= "text" placeholder= "description...">
+            <br>
+        <input id="add-new-todo-button" class= "button" type= "submit" value= "Add">
+        </div>
 </html>
